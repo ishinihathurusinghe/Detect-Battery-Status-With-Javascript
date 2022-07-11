@@ -49,4 +49,4 @@ navigator.getBattery().then((battery) => {
     charge.style.width = batteryLevel;
     chargeLevel.textContent = batteryLevel;
   }
-})
+});
