@@ -17,7 +17,7 @@ navigator.getBattery().then((battery) => {
   }
   updateAllBatteryInfo();
 
-  //When the charging status changes
+  
   battery.addEventListener("chargingchange", () => {
     updateAllBatteryInfo();
   });
