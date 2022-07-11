@@ -4,7 +4,7 @@ const chargingTimeRef = document.getElementById("charging-time");
 
 window.onload = () => {
  
-  if (!navigator.getBattery) {
+   if (!navigator.getBattery) {
     alert("Battery Status Api Is Not Supported In Your Browser");
     return false;
   }
